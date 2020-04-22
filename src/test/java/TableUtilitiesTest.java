@@ -9,7 +9,7 @@ import org.junit.Test;
 public class TableUtilitiesTest {
    
     @Test
-    public void testGetMulplicationTable_forOne(){
+    public void testGetMultiplicationTable_forOne(){
         String expected = "  1 |\n";
 
         String actual = TableUtilities.getMultiplicationTable(1);
@@ -17,7 +17,7 @@ public class TableUtilitiesTest {
     }
     
         @Test
-    public void testGetMulplicationTable_forTwo(){
+    public void testGetMultiplicationTable_forTwo(){
         String expected = "  1 |  2 |\n" +
                           "  2 |  4 |\n";
 
