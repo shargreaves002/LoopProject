@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee686910-89df-41ff-b036-2a7d4e223515" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TableUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TableUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TriangleUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TriangleUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NumberUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NumberUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TableUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TableUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TriangleUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TriangleUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NumberUtilitiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NumberUtilitiesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TableUtilitiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TableUtilitiesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TriangleUtilitiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TriangleUtilitiesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +33,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -42,7 +45,16 @@
       <recent name="C:\Users\sarah\IdeaProjects\LoopProject\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TableUtilitiesTest.testGetMulplicationTable_forOne">
+  <component name="RunManager" selected="JUnit.TableUtilitiesTest">
+    <configuration name="TableUtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LoopProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TableUtilitiesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TableUtilitiesTest.testGetMulplicationTable_forOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LoopProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,23 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleUtilitiesTest.testGetTriangle_ForOneRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LoopProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleUtilitiesTest" />
-      <option name="METHOD_NAME" value="testGetTriangle_ForOneRow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TableUtilitiesTest" />
         <item itemvalue="JUnit.TableUtilitiesTest.testGetMulplicationTable_forOne" />
         <item itemvalue="JUnit.TriangleUtilitiesTest" />
         <item itemvalue="JUnit.TriangleUtilitiesTest.testGetSmallTriangle" />
         <item itemvalue="JUnit.TriangleUtilitiesTest.testGetLargeTriangle" />
-        <item itemvalue="JUnit.TriangleUtilitiesTest.testGetTriangle_ForOneRow" />
       </list>
     </recent_temporary>
   </component>
@@ -120,26 +122,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587570082428">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587573027394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1587570082428" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587569803431">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1587573027394" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587572869662">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587569803431" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587569803431">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587572869662" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587572869662">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587569803431" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587569803431">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587572869662" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587572869661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587569803431" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587569803431">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587572869661" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587572869662">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587569803431" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587572869662" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1587564906612">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -156,10 +158,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587564906612" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1587562861753">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1587572678961">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587562861753" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587572678961" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1587568427801">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
